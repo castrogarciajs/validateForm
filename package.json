@@ -1,13 +1,17 @@
 {
   "name": "validateform",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library that validates forms, avoids the use of regular expressions in a verbose way",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastian009w/validateForm.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "johan sebastian castro",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.0",
