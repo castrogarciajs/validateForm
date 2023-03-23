@@ -4,6 +4,6 @@ describe("validator", () => {
   it("should instance", () => {
     const validator = new Validator();
 
-    expect(validator instanceof Validator).toBe(true)
+    expect(validator instanceof Validator).toBe(true);
   });
 });
