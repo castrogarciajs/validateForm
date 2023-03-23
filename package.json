@@ -1,0 +1,19 @@
+{
+  "name": "validateform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.5",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5"
+  }
+}
