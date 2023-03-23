@@ -1,5 +1,5 @@
 {
-  "name": "validateform",
+  "name": "validate-form-js",
   "version": "1.0.0",
   "description": "A library that validates forms, avoids the use of regular expressions in a verbose way",
   "main": "index.js",
