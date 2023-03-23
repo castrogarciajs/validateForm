@@ -17,6 +17,8 @@ npm install <name> --save-dev
 - `email`
 
 ```ts
+import {Validator} from 'name';
+
 const emailInput = document.getElementById("email") as HTMLInputElement;
 const email = emailInput.value;
 
@@ -30,6 +32,8 @@ if (FormValidator.isEmailValid(email)) {
 - `password`
 
 ```ts
+import {Validator} from 'name';
+
 const passwordInput = document.getElementById("password") as HTMLInputElement;
 const password = passwordInput.value;
 
@@ -43,6 +47,8 @@ if (FormValidator.isPasswordValid(password)) {
 - `phone number`
 
 ```ts
+import {Validator} from 'name';
+
 const phoneInput = document.getElementById("phone") as HTMLInputElement;
 const phoneNumber = phoneInput.value;
 
