@@ -1,3 +1,9 @@
-test("should return 3", () => {
-  expect(1 + 2).toBe(3);
+import { Validator } from "../src/index";
+
+describe("validator", () => {
+  it("should instance", () => {
+    const validator = new Validator();
+
+    expect(validator instanceof Validator).toBe(true)
+  });
 });
