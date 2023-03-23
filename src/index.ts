@@ -1,3 +1,9 @@
-let castro: string = "dto";
+class Validator {
+  validateEmail(email: string) {}
 
-console.log(castro)
+  validatePassword(password: string) {}
+
+  validatePhone(number: string) {}
+}
+
+export { Validator };
