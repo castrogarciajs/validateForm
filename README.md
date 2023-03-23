@@ -7,7 +7,7 @@
 - you must follow the following steps for the installation
 
 ```npm
-npm install <validate-form-js> --save-dev
+npm install validator-form-js --save-dev
 ```
 
 ## Usage
