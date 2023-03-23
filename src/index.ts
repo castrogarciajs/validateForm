@@ -15,12 +15,20 @@ class Validator {
    * @returns devuelve un boolean como afirmacion
    */
   static validatePassword(password: string): boolean {
-    const passwordRegex =
+    const passwordTest =
       /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).{8,}$/;
-    return passwordRegex.test(password);
+    return passwordTest.test(password);
   }
 
-  static validatePhone(number: string) {}
+  /**
+   * 
+   * @param number ingresa un numero de telefono
+   * @returns devuelve un boolean como afirmacion
+   */
+  static validatePhone(number: string) {
+    const phoneNumberTest = /^\d{10}$/;
+    return phoneNumberTest.test(number);
+  }
 }
 
 export { Validator };
