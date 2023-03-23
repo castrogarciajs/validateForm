@@ -1,7 +1,6 @@
 class Validator {
-
   /**
-   * 
+   *
    * @param email ingresa un correo electronico
    * @returns devuelve un booelan como afirmacion
    */
@@ -10,7 +9,16 @@ class Validator {
     return emailTest.test(email);
   }
 
-  static validatePassword(password: string) {}
+  /**
+   *
+   * @param password ingresa una contraseña
+   * @returns devuelve un boolean como afirmacion
+   */
+  static validatePassword(password: string): boolean {
+    const passwordRegex =
+      /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).{8,}$/;
+    return passwordRegex.test(password);
+  }
 
   static validatePhone(number: string) {}
 }
