@@ -7,7 +7,7 @@
 - you must follow the following steps for the installation
 
 ```npm
-npm install <name> --save-dev
+npm install <validate-form-js> --save-dev
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ import {Validator} from 'name';
 const emailInput = document.getElementById("email") as HTMLInputElement;
 const email = emailInput.value;
 
-if (FormValidator.isEmailValid(email)) {
+if (Validator.isEmailValid(email)) {
   // dirección de correo electrónico válida
 } else {
   // dirección de correo electrónico no válida
@@ -37,7 +37,7 @@ import {Validator} from 'name';
 const passwordInput = document.getElementById("password") as HTMLInputElement;
 const password = passwordInput.value;
 
-if (FormValidator.isPasswordValid(password)) {
+if (Validator.isPasswordValid(password)) {
   // contraseña válida
 } else {
   // contraseña no válida
@@ -52,7 +52,7 @@ import {Validator} from 'name';
 const phoneInput = document.getElementById("phone") as HTMLInputElement;
 const phoneNumber = phoneInput.value;
 
-if (FormValidator.isPhoneNumberValid(phoneNumber)) {
+if (Validator.isPhoneNumberValid(phoneNumber)) {
   // número de teléfono válido
 } else {
   // número de teléfono no válido
