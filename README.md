@@ -17,7 +17,7 @@ npm install validator-form-js --save-dev
 - `email`
 
 ```ts
-import {Validator} from 'name';
+import {Validator} from 'validator-form-js';
 
 const emailInput = document.getElementById("email") as HTMLInputElement;
 const email = emailInput.value;
