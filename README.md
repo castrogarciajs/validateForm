@@ -32,7 +32,7 @@ if (Validator.isEmailValid(email)) {
 - `password`
 
 ```ts
-import {Validator} from 'name';
+import {Validator} from 'validator-form-js';
 
 const passwordInput = document.getElementById("password") as HTMLInputElement;
 const password = passwordInput.value;
