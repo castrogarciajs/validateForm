@@ -47,7 +47,7 @@ if (Validator.isPasswordValid(password)) {
 - `phone number`
 
 ```ts
-import {Validator} from 'name';
+import {Validator} from 'validator-form-js';
 
 const phoneInput = document.getElementById("phone") as HTMLInputElement;
 const phoneNumber = phoneInput.value;
